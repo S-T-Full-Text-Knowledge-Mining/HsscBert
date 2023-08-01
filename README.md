@@ -12,7 +12,7 @@ Specifically, we constructed Hssc_BERT_e3, Hssc_BERT_e5 pre-training language mo
 
 
 ## News 
-- 2023-08-01：Hssc_BERT_e3, Hssc_BERT_e5 has been put forward with a larger pretraining corpus. 
+- 2023-08-01：HsscBERT_e3, HsscBERT_e5 has been put forward with a larger pretraining corpus. 
 
 
 ##  How to use
@@ -21,24 +21,24 @@ Specifically, we constructed Hssc_BERT_e3, Hssc_BERT_e5 pre-training language mo
 
 The `from_pretrained` method based on [Huggingface Transformers](https://github.com/huggingface/transformers) can directly obtain Hssc_BERT, Hssc_BERT_wwm, Hssc_RoBERTa and Hssc_RoBERTa_wwm models online. 
 
-- Hssc_BERT_e3
+- HsscBERT_e3
 
 ```python
 from transformers import AutoTokenizer, AutoModel
 
-tokenizer = AutoTokenizer.from_pretrained("KM4STfulltext/Hssc_BERT_e3")
+tokenizer = AutoTokenizer.from_pretrained("KM4STfulltext/HsscBERT_e3")
 
-model = AutoModel.from_pretrained("KM4STfulltext/Hssc_BERT_e3")
+model = AutoModel.from_pretrained("KM4STfulltext/HsscBERT_e3")
 ```
 
-- Hssc_BERT_e5
+- HsscBERT_e5
   
 ```python
 from transformers import AutoTokenizer, AutoModel
 
-tokenizer = AutoTokenizer.from_pretrained("KM4STfulltext/Hssc_BERT_e5")
+tokenizer = AutoTokenizer.from_pretrained("KM4STfulltext/HsscBERT_e5")
 
-model = AutoModel.from_pretrained("KM4STfulltext/Hssc_BERT_e5")
+model = AutoModel.from_pretrained("KM4STfulltext/HsscBERT_e5")
 ```
 
 
@@ -50,8 +50,8 @@ model = AutoModel.from_pretrained("KM4STfulltext/Hssc_BERT_e5")
 
 Download directly through Huggingface's official website. 
 
-- [KM4STfulltext/Hssc_BERT_e3](https://huggingface.co/KM4STfulltext/HsscBERT_e3)
-- [KM4STfulltext/Hssc_BERT_e5](https://huggingface.co/KM4STfulltext/HsscBERT_e5)
+- [KM4STfulltext/HsscBERT_e3](https://huggingface.co/KM4STfulltext/HsscBERT_e3)
+- [KM4STfulltext/HsscBERT_e5](https://huggingface.co/KM4STfulltext/HsscBERT_e5)
 
 
 ## Disclaimer
